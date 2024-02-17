@@ -1,10 +1,11 @@
+import Dashboard from "./components/Dashboard";
+
 function App() {
 
-
   return (
-    <>
-      <h1>Rocket Launcher</h1>
-    </>
+    <div className='bg-blue-50 text-black h-full flex flex-col items-center place-content-center'>
+      <Dashboard/>
+    </div>
   );
 }
 
